@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="elearning.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="Elearning.html">Home</a></li>
+                <li><a href="elearning2.html">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="course-list">
+            <h2>Available Courses</h2>
+            <div class="course" onclick="handleCourseClick('course1')">
+                <h3>JavaScript Basics</h3>
+                <p>Learn the fundamentals of JavaScript programming.</p>
+            </div>
+            <div class="course" onclick="handleCourseClick('course2')">
+                <h3>HTML & CSS</h3>
+                <p>Understand how to create websites using HTML and CSS.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-Learning Platform</p>
+    </footer>
+    <script src="elearning.js"></script>
+</body>
+</html>
